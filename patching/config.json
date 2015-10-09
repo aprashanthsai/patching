@@ -1,0 +1,12 @@
+{
+  "chef":{
+    "chef_server_url": "https://chef-server.prashanth.com/organizations/macbook",
+    "validation_client_name": "macbook-validator",
+    "validation_key_path": "/Users/athicarl/workspace/chef-repos/macbook/.chef/macbook-validator.pem",
+    "client_key": "/Users/athicarl/workspace/chef-repos/macbook/.chef/athicaps.pem",
+    "node_name":"athicaps"
+  },
+  "ssl": {
+    "verify":false
+  }
+}
